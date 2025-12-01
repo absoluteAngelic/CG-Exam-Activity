@@ -37,7 +37,7 @@ The second shader I utilized in our recreation of Contra was a basic Texture sha
 
 
 Sources:
-Bushes: https://opengameart.org/content/pixel-art-simple-trees
-Rocks: https://opengameart.org/content/handpainted-rock-textures-rock01png
-Water: https://bgfons.com/download/2378
-Foam: https://artpictures.club/autumn-2023.html
+Bushes: https://opengameart.org/content/pixel-art-simple-trees  
+Rocks: https://opengameart.org/content/handpainted-rock-textures-rock01png  
+Water: https://bgfons.com/download/2378  
+Foam: https://artpictures.club/autumn-2023.html  
