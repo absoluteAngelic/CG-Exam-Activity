@@ -7,8 +7,8 @@ Material:
   m_CorrespondingSourceObject: {fileID: 0}
   m_PrefabInstance: {fileID: 0}
   m_PrefabAsset: {fileID: 0}
-  m_Name: Stars
-  m_Shader: {fileID: 4800000, guid: e1ad972970784a3459f85a88711b3540, type: 3}
+  m_Name: WaterScroll
+  m_Shader: {fileID: 4800000, guid: 547f9612ac2167c4e88e5e422141ba89, type: 3}
   m_Parent: {fileID: 0}
   m_ModifiedSerializedProperties: 0
   m_ValidKeywords: []
@@ -22,11 +22,19 @@ Material:
   m_LockedProperties: 
   m_SavedProperties:
     serializedVersion: 3
-    m_TexEnvs: []
+    m_TexEnvs:
+    - _FoamTex:
+        m_Texture: {fileID: 2800000, guid: 4a25056fba79d7c43afb9067afa0fe3a, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
+    - _MainTex:
+        m_Texture: {fileID: 2800000, guid: eb8d0c36568695f43be6fba22a1d5537, type: 3}
+        m_Scale: {x: 1, y: 1}
+        m_Offset: {x: 0, y: 0}
     m_Ints: []
     m_Floats:
-    - _Intensity: 37.40167
-    m_Colors:
-    - _BaseColor: {r: 1, g: 1, b: 1, a: 1}
+    - _ScrollX: 0.21
+    - _ScrollY: 0
+    m_Colors: []
   m_BuildTextureStacks: []
   m_AllowLocking: 1

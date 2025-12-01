@@ -1,3 +1,4 @@
+using Unity.VisualScripting;
 using UnityEngine;
 
 public class Stars : MonoBehaviour
@@ -6,13 +7,13 @@ public class Stars : MonoBehaviour
     float timer;
     public float maxIntensity;
     bool goingUp;
-    public float lowestToHighestTime;
+    public float changeTimeInSeconds;
     float deltaTimeMultiplier;
 
     private void Start()
     {
-        starMaterial.SetFloat(Shader.PropertyToID("_Intensity"), 1);
-        deltaTimeMultiplier = maxIntensity / lowestToHighestTime;
+        deltaTimeMultiplier = maxIntensity / changeTimeInSeconds;
+        timer = starMaterial.GetFloat(Shader.PropertyToID("_Intensity"));
     }
 
     void Update()
