@@ -19,7 +19,7 @@ For the bushes:
 
 The first shader I utilized in our recreation of Contra was a transparency shader. I did this through my recreation of the game's bushes. I first found a bush pixel art image online that I felt fit the game's environment. Then after I found an image suitable for the game's environment I grabbed the transparency shader from canvas to use to apply to the bushes. After grabbing the shader I put the shader code into unity and then created a material from that shader file. I then dragged in my bush object into the Main Texture slot from the shader code so the bush would appear.  After I applied the material to a quad the bush appeared. After resizing, position and duplicating the quad I was left with a satisfied recreation of Contra’s bushes. I felt this fit our creation/solution as we focused on implementing the games environment over interaction and the bushes are an important part of Contra's game environment.
 
-<img width="2081" height="271" alt="Transparency" src="https://github.com/user-attachments/assets/389eb301-ce56-48a8-8ac3-685ebb1c7d9e" />
+<img width="1070" height="201" alt="{93E681E5-9B25-46CE-99C9-D11ABF455753}" src="https://github.com/user-attachments/assets/32ab5bf1-805d-4cd7-a01f-2da8eda924b9" />
 
 For the rocks:
 
@@ -27,7 +27,9 @@ For the rocks:
 
 The second shader I utilized in our recreation of Contra was a basic Texture shader. I did this by first finding a nice 2d Rock texture that I felt was similar and reminded me of Contra’s rocks. After finding that image I grabbed the shader code of the basic Texture shader as my main focus was to get the texture to apply onto an object and adjust its color for it to fit the environment more as we started with just a basic brown object for the dirt without any rocks. I then added the shader code into unity and created a material using it. I then added the texture and the beige color tint to give it more character and make it fit better with the environment. The material was then applied to cubes which would hold the texture. I then began duplicating the blocks and placing them around to create a pattern of rocks that I felt both looked nice and fit the game. The final finishing touches came into the scaling of the objects. I think this approach fit our solution as again, we focused on the games environment over recreating functionality and I felt we ended up achieving that in our final build and recreation. 
 
-<img width="2081" height="274" alt="Texture" src="https://github.com/user-attachments/assets/107543fd-de5c-4e51-9c01-8db5f18ef9a3" />
+<img width="2081" height="274" alt="Rocks" src="https://github.com/user-attachments/assets/a9ead329-fcf0-415b-9d56-15fb54074aae" />
+
+
 
 Sources For Bushes and Rocks:
 https://opengameart.org/content/pixel-art-simple-trees
