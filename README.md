@@ -1,6 +1,6 @@
 # CG-Exam-Activity
 
-##Luke
+## Luke
 For the stars:
 <img width="819" height="332" alt="image" src="https://github.com/user-attachments/assets/8ee24993-c6d0-44bc-b1ff-917d99a20b1e" />
 The stars are in 3 groups and raise and lower in intensity creating a bloom effect. There are 3 different copies of the same material so that the values aren't shared. The stars are spheres put into the sky and split into thirds, each third given one of the 3 copies of the star material. The shader takes in a colour and intensity, then returns the colour * intensity to simulate bloom, as colour values can be multiplied to create a bloom effect (greater than 1,1,1 for the RGB values will make a white that glows into bloom). A script attached to each star takes in the amount of time it should take to go from fully dark to fully bloomed, turns that into a value to multiply time.deltatime with so that it takes the specified amount of time to change. Once it reaches maximum intensity, it starts going down, then once it reaches minimum, it goes up again. Each of the 3 materials start at different intensity offsets so that they aren't all changing together and looking artificial.
@@ -16,7 +16,7 @@ The water scrolls horizontally with foam that scrolls at a different speed to cr
 
 
 
-##Augie
+## Augie
 For the bushes:
 
 <img width="481" height="82" alt="{FBC5BBDE-E17A-48A3-90E3-4F986A2E5191}" src="https://github.com/user-attachments/assets/4f767c4a-3c23-4a2f-985a-0f4bcb06866f" />
