@@ -1,4 +1,4 @@
-Shader "Custom/TransparencyP"
+Shader "Custom/Transparency"
 {
    Properties
     {
