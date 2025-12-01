@@ -14,7 +14,9 @@ The water scrolls horizontally with foam that scrolls at a different speed to cr
 
 <img width="1300" height="954" alt="water diagram" src="https://github.com/user-attachments/assets/098f6537-864e-4f45-989d-cdd0e9f28fb5" />
 
-
+Sources:  
+Water: https://bgfons.com/download/2378  
+Foam: https://artpictures.club/autumn-2023.html  
 
 ## Augie
 For the bushes:
@@ -39,5 +41,3 @@ The second shader I utilized in our recreation of Contra was a basic Texture sha
 Sources:  
 Bushes: https://opengameart.org/content/pixel-art-simple-trees  
 Rocks: https://opengameart.org/content/handpainted-rock-textures-rock01png  
-Water: https://bgfons.com/download/2378  
-Foam: https://artpictures.club/autumn-2023.html  
