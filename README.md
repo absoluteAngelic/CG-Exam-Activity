@@ -19,7 +19,8 @@ For the bushes:
 
 The first shader I utilized in our recreation of Contra was a transparency shader. I did this through my recreation of the game's bushes. I first found a bush pixel art image online that I felt fit the game's environment. Then after I found an image suitable for the game's environment I grabbed the transparency shader from canvas to use to apply to the bushes. After grabbing the shader I put the shader code into unity and then created a material from that shader file. I then dragged in my bush object into the Main Texture slot from the shader code so the bush would appear.  After I applied the material to a quad the bush appeared. After resizing, position and duplicating the quad I was left with a satisfied recreation of Contra’s bushes. I felt this fit our creation/solution as we focused on implementing the games environment over interaction and the bushes are an important part of Contra's game environment.
 
-<img width="1070" height="201" alt="{93E681E5-9B25-46CE-99C9-D11ABF455753}" src="https://github.com/user-attachments/assets/32ab5bf1-805d-4cd7-a01f-2da8eda924b9" />
+<img width="2081" height="274" alt="image" src="https://github.com/user-attachments/assets/42b3e66a-4437-4b15-b029-36daadba42dd" />
+
 
 For the rocks:
 
